@@ -20,13 +20,11 @@ const Header = () => {
             <span className="cursor-pointer font-bold text-4xl text-white">Blogger's BlogX   </span>
           </Link>
         </div>
-    <div className="container mx-auto px-10 mb-8>
-    <div className="md:float-left block">
+        <div className="md:float-left block">
           <Link href="https://news-chatbot.vercel.app/">
-            <span className="cursor-pointer font-bold text-4xl text-white">Voice of News</span>
+            <span className="cursor-pointer font-bold text-4xl text-white" style="color:crimson;"> Voice-News</span>
           </Link>
         </div>
-    </div>
         <div className="hidden md:float-left md:contents">
           {categories.map((category, index) => (
             <Link key={index} href={`/category/${category.slug}`}><span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">{category.name}</span></Link>
