@@ -19,8 +19,10 @@ const Header = () => {
           <Link href="/">
             <span className="cursor-pointer font-bold text-4xl text-white">Blogger's BlogX   </span>
           </Link>
+        </div>
+    <div className="md:float-left block">
           <Link href="https://news-chatbot.vercel.app/">
-            <span className="cursor-pointer font-bold text-4xl text-white">   News ChatBot</span>
+            <span className="cursor-pointer font-bold text-4xl text-white">Voice of News</span>
           </Link>
         </div>
         <div className="hidden md:float-left md:contents">
