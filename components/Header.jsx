@@ -19,6 +19,9 @@ const Header = () => {
           <Link href="/">
             <span className="cursor-pointer font-bold text-4xl text-white">Blogger's BlogX</span>
           </Link>
+          <Link href="news-chatbot.vercel.app/">
+            <span className="cursor-pointer font-bold text-4xl text-white">News ChatBot</span>
+          </Link>
         </div>
         <div className="hidden md:float-left md:contents">
           {categories.map((category, index) => (
