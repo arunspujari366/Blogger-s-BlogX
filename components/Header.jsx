@@ -17,8 +17,8 @@ const Header = () => {
       <div className="border-b w-full inline-block border-blue-400 py-8">
         <div className="md:float-left block">
           <Link href="/">
-            <span className="cursor-pointer font-bold text-4xl text-white">Blogger's BlogX<br></span>
-          </Link>
+            <span className="cursor-pointer font-bold text-4xl text-white">Blogger's BlogX</span>
+          </Link><br>
         </div>
         <div className="md:float-left block">
           <Link href="https://news-chatbot.vercel.app/">
