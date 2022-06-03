@@ -17,12 +17,12 @@ const Header = () => {
       <div className="border-b w-full inline-block border-blue-400 py-8">
         <div className="md:float-left block">
           <Link href="/">
-            <span className="cursor-pointer font-bold text-4xl text-white">BloggerS BlogX and Voice-<br /></span>
+            <span className="cursor-pointer font-bold text-4xl text-white">BloggerS BlogX and Vo<br /></span>
           </Link>
         </div>
         <div className="md:float-left block">
           <Link href="https://news-chatbot.vercel.app/">
-            <span className="cursor-pointer font-bold text-4xl text-white">News</span>
+            <span className="cursor-pointer font-bold text-4xl text-white">iceNews</span>
           </Link>
         </div>
         <div className="hidden md:float-left md:contents">
